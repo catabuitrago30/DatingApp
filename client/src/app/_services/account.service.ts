@@ -10,6 +10,8 @@ import { ReplaySubject } from 'rxjs';
 })
 export class AccountService {
   baseUrl = 'https://localhost:5001/api/';
+
+  //Los Guards se subscriben automáticamente a los observables que tengamos
   private currentUserSource = new ReplaySubject<User>(1);
   currentUser$ = this.currentUserSource.asObservable();
 
