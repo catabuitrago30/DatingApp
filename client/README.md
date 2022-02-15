@@ -1,3 +1,8 @@
+# Important components for angular architecture are
+- nav.component.html
+- app.routing.module
+
+
 # Client
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.0.4.
