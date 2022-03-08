@@ -8,7 +8,5 @@ namespace API.DTOs
 
         public bool IsMain { get; set; }
 
-
-
     }
 }

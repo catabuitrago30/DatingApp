@@ -1,4 +1,10 @@
 .dropdown-toggle, .dropdown-item {
-    cursor: pointer;
-    
+    cursor: pointer;    
+}
+
+/*Cuando nos referimos a una etiqueta html directamente (no un class) NO PUEDE! LLEVAR PUNTO (PERIOD)*/ 
+img {
+    max-height: 50px;
+    border: 2px solid #fff;
+    display: inline;
 }
